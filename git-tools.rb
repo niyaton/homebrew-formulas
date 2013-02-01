@@ -5,7 +5,7 @@ require 'formula'
 
 class GitTools < ScriptFileFormula
   homepage 'https://github.com/niyaton/git-tools'
-  url 'https://raw.github.com/niyaton/git-tools/master/distiller.py'
+  url 'https://raw.github.com/niyaton/git-tools/0.0.1/distiller.py'
   sha1 'cccc63a8f994a2a109783e06677ce7087888caf7'
   version '0.0.1'
 
