@@ -5,9 +5,9 @@ require 'formula'
 
 class GitTools < ScriptFileFormula
   homepage 'https://github.com/niyaton/git-tools'
-  url 'https://raw.github.com/niyaton/git-tools/0.0.1/distiller.py'
-  sha1 'cccc63a8f994a2a109783e06677ce7087888caf7'
-  version '0.0.1'
+  url 'https://raw.github.com/niyaton/git-tools/0.0.2/distiller.py'
+  sha1 'f3ffbff8a9aaa921386f4c0d746b50574796e928'
+  version '0.0.2'
 
   depends_on 'findutils'
 
