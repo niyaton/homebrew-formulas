@@ -5,14 +5,15 @@ require 'formula'
 
 class GitTools < ScriptFileFormula
   homepage 'https://github.com/niyaton/git-tools'
-  url 'https://raw.github.com/niyaton/git-tools/0.0.2/distiller.py'
-  sha1 'f3ffbff8a9aaa921386f4c0d746b50574796e928'
-  version '0.0.2'
+  url 'https://github.com/niyaton/git-tools/tarball/0.0.3'
+  sha1 '3a5a6661b2bbc1b13b0f6a95872057c00ab04bf6'
+  version '0.0.3'
 
   depends_on 'findutils'
 
   def install
     bin.install 'distiller.py' => 'git-distiller.py'
+    bin.install 'manager.py' => 'git-manager.py'
   end
 
 end
